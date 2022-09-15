@@ -15,7 +15,7 @@ export class BlockChain {
     }
 
     public getBlocks(): Block[] {
-        return this.blocks;
+        return [...this.blocks];
     }
 }
 
